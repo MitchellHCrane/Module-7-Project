@@ -1,0 +1,22 @@
+
+Results for the tinyArray
+insert 43.391 μs
+append 107.756 μs
+
+Results for the smallArray
+insert 154.559 μs
+append 118.535 μs
+
+Results for the mediumArray
+insert 165.764 μs
+append 161.812 μs
+
+Results for the largeArray
+insert 7.1196 ms
+append 693.523 μs
+
+Results for the extraLargeArray
+insert 1.33197885 s
+append 5.904728 ms
+
+The insert function takes less time overall to perform with smaller arrays, however the bigger the array the append seems to run quicker and sclales better and therfore is the better option. The patter I see is that the runtime goes up based on the size of the Array. 
